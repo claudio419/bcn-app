@@ -26,9 +26,11 @@ h4 {
 }
 
 p {
-    color: var(--color-black);
+    color: var(--color-withe);
     font-size: 14px;
     margin-bottom: 0;
+    text-decoration: none solid rgb(255,255,255);
+
 }
 
 form {
@@ -87,6 +89,37 @@ form {
 
 .font_weight_bold {
     font-weight: bold;
+}
+.info_box{
+    width: 362px;
+    height: 152px;
+    border-radius: 20px;
+    background-color: #333333;
+    background-size: cover;
+}
+.info_text{
+    width: 300px;
+    height: 144px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 24px;
+}
+.info_link{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #ecf7fd;
+    text-decoration: underline solid rgb(236, 247, 253);
+    line-height: 24px;
+}
+.container_background{
+    width: 389px;
+    height: 522px;
+    border-radius: 20px;
+    /*background-color: #333333;*/
+    background-image:url("../img/airplane.jpg");
+    background-size: cover;
 }
 
 .font_size_16 {
