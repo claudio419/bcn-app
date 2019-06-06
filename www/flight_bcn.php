@@ -9,6 +9,8 @@
         exit();
     }
 
+    $city_id =$ctrl_content->get_city_id_by_session_id();
+
 ?>
 
 <!DOCTYPE html>

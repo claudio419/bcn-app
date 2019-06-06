@@ -53,6 +53,28 @@ include 'db_conection.php';
         }
 
         /**
+         * Get City id by session_id
+         *
+         * return int
+         */
+        public function get_city_id_by_session_id() {
+
+            $con = new db_conection();
+
+            $session_id = (isset($_COOKIE['PHPSESSID']) && !empty($_COOKIE['PHPSESSID'])) ? strip_tags($_COOKIE['PHPSESSID']) : '';
+
+            if(!empty($session_id)) {
+
+                $city_id = $con->get_city_id(strip_tags($session_id));
+
+                return ($city_id) ? (int) $city_id['city_id'] : 1;
+            }
+
+            return 1;
+
+        }
+
+        /**
          * Save program option
          */
         public function save_program_option(){

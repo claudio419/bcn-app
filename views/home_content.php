@@ -30,10 +30,10 @@
 <!--        <div class="btn_link btn_right">Restaurants</div>-->
         <a href="orga.php"><div class="btn_link btn_right">Orga-Team</div></a>
     </div>
-<!--    <div class="container_link_button">-->
-<!--        <a href="flight_bcn.php"><div class="btn_link btn_left">Anreise</div></a>-->
-<!--        <a href="flight_muc.php"><div class="btn_link btn_right">Abreise</div></a>-->
-<!--    </div>-->
+    <div class="container_link_button">
+        <a href="flight_bcn.php"><div class="btn_link btn_left">Anreise</div></a>
+        <a href="flight_muc.php"><div class="btn_link btn_right">Abreise</div></a>
+    </div>
 
     <div class="separator_gray"></div>
     <div class="home_img_container padding_top_15">

@@ -27,7 +27,7 @@
 
             $conn = $this->get_conn();
 
-            $sql = 'SELECT * FROM users where email=\'' . $email . '\' and password=\'' . $pass . '\';';
+            $sql = 'SELECT email, firstname FROM users where email=\'' . $email . '\' and password=\'' . $pass . '\';';
 
             $result = $conn->query($sql);
 
@@ -116,8 +116,7 @@
          *
          * return \msqli
          */
-        private function get_conn()
-        {
+        private function get_conn() {
 
             $this->load_env();
             $conn = new mysqli($this->dbhost, $this->dbuser, $this->dbpass, $this->db);
@@ -133,6 +132,32 @@
         function CloseCon($conn)
         {
             $conn->close();
+        }
+
+        /**
+         * Get city id
+         *
+         * @param string $session_id
+         * @return int
+         */
+        function get_city_id($session_id) {
+
+
+            $conn = $this->get_conn();
+
+            $sql = $sql = 'SELECT city_id FROM users where session_id=\'' . $session_id . '\';';
+
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    return $row;
+                }
+
+            } else {
+                return false;
+            }
+
         }
     }
 

@@ -28,6 +28,7 @@ h4 {
 p {
     color: var(--color-black);
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 form {
@@ -54,10 +55,20 @@ form {
     right: 0;
 }
 
+.padding_top_5 {
+    padding-top: 5px;
+}
+
+.padding_top_10 {
+    padding-top: 10px;
+}
 .padding_top_15 {
     padding-top: 15px;
 }
 
+.padding_top_30 {
+    padding-top: 30px;
+}
 .color_white{
     color: var(--color-withe);
 }
@@ -130,7 +141,7 @@ form {
 }
 
 .separator_gray {
-    padding: 10px 0 0 10px;
+    /*padding: 10px 0 0 10px;*/
     width: 100%;
     height: 1px;
     border-bottom: solid 1px var(--color-gray);

@@ -1,2 +1,2 @@
 <?php
-    define('ENV', 'prod');
+    define('ENV', 'dev');
