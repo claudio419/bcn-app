@@ -98,15 +98,35 @@ form {
     font-weight: bold;
 }
 .info_box{
-    width: 362px;
+    width: 386px;
     height: 152px;
     border-radius: 20px;
     background-color: #333333;
     background-size: cover;
 }
+.info_box_overlight{
+    background-color: transparent;
+    background: var(--overlight);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+.info{
+    width: 33px;
+    height: 21px;
+    border-radius: 3px;
+    background-color: #c82d2d;
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center
+}
 .info_text{
-    width: 300px;
-    height: 144px;
+    width: auto;
+    height: auto;
     font-family: Roboto;
     font-size: 16px;
     color: #ffffff;
@@ -121,7 +141,8 @@ form {
     line-height: 24px;
 }
 .container_background{
-    height: 522px;
+    height:auto;
+    width: auto;
     background-color: transparent;
     background-image:url("../img/airplane.jpg");
     background-size: cover;
