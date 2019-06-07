@@ -1,5 +1,6 @@
 :root {
     --overlight: rgba(0,0,0,0.4);
+    --lightgray: rgba(0,0,0,0.2);
     --color-green-light: #29D9C2;
     --color-green-light-middle: #DAF0EA;
     --color-withe: #FFFFFF;
@@ -10,6 +11,7 @@
     --color-geen-deep: #2C858D;
     --color-green:#37A447;
     --color-green-apple: #CAE7A8;
+    --color-red-strawberry: #C82D2D;
 }
 
 body, html {
@@ -56,10 +58,18 @@ form {
     right: 0;
 }
 
+.padding_10 {
+    padding: 10px;
+}
 .padding_top_5 {
     padding-top: 5px;
 }
-
+.padding_top_8 {
+    padding-top: 8px;
+}
+.padding_top_76 {
+    padding-top: 76px;
+}
 .padding_top_10 {
     padding-top: 10px;
 }
@@ -109,20 +119,21 @@ form {
     background: var(--overlight);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5px;
+    padding:10px;
 }
 .info{
-    width: 33px;
+    width: auto;
     height: 21px;
     border-radius: 3px;
-    background-color: #c82d2d;
+    background-color:var(--color-red-strawberry);
     background-repeat: no-repeat;
     font-family: Arial;
     font-size: 11px;
     color: #ffffff;
     font-weight: 700;
     text-decoration: none solid rgb(255, 255, 255);
-    text-align: center
+    text-align: center;
+    padding: 3px 10px 20px 6px;
 }
 .info_text{
     width: auto;
@@ -132,6 +143,8 @@ form {
     color: #ffffff;
     text-decoration: none solid rgb(255, 255, 255);
     line-height: 24px;
+    padding-left: 10px;
+    background-color: transparent;
 }
 .info_link{
     font-family: Roboto;
@@ -150,7 +163,7 @@ form {
 
 .container_background_overlight{
     background-color: transparent;
-    background: var(--overlight);
+    background: var(--lightgray);
     height: 100%;
     width: 100%;
     background-position: center;
