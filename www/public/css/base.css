@@ -9,6 +9,7 @@
     --color-gray-middle: #f7f7f7;
     --color-geen-deep: #2C858D;
     --color-green:#37A447;
+    --color-green-apple: #CAE7A8;
 }
 
 body, html {
@@ -26,11 +27,9 @@ h4 {
 }
 
 p {
-    color: var(--color-withe);
+    color: var(--color-black);
     font-size: 14px;
     margin-bottom: 0;
-    text-decoration: none solid rgb(255,255,255);
-
 }
 
 form {
@@ -71,12 +70,20 @@ form {
 .padding_top_30 {
     padding-top: 30px;
 }
+
+.margin_top_15 {
+    margin-top: 15px;
+}
 .color_white{
     color: var(--color-withe);
 }
 
 .color_green_deep {
     color: var(--color-geen-deep);
+}
+
+.color_green_apple {
+    color: var(--color-green-apple);
 }
 
 .color_green {
@@ -114,12 +121,22 @@ form {
     line-height: 24px;
 }
 .container_background{
-    width: 389px;
     height: 522px;
-    border-radius: 20px;
-    /*background-color: #333333;*/
+    background-color: transparent;
     background-image:url("../img/airplane.jpg");
     background-size: cover;
+    padding: 10px;
+}
+
+.container_background_overlight{
+    background-color: transparent;
+    background: var(--overlight);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
 }
 
 .font_size_16 {
