@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fcd7b8a-53a2-47ce-bb6e-d6a0602c05e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/access.log.19.3.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/access.log.19.4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/access.log.current" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info.php5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/last_traffic" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/sftp.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/traffic.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/traffic.html/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/traffic.html/05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/traffic.html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/flight_bcn_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/flight_bcn_details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/public/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/db_config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/db_config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -75,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -295,10 +282,10 @@
         <option value="$PROJECT_DIR$/views/flight_muc_details.php" />
         <option value="$PROJECT_DIR$/config/env_config.php" />
         <option value="$PROJECT_DIR$/www/.htaccess" />
-        <option value="$PROJECT_DIR$/config/db_config.php" />
         <option value="$PROJECT_DIR$/views/flight_bcn_details.php" />
         <option value="$PROJECT_DIR$/www/public/css/base.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/db_config.php" />
       </list>
     </option>
   </component>
@@ -307,10 +294,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="y" value="-27" />
-    <option name="width" value="1918" />
-    <option name="height" value="1078" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -325,6 +312,11 @@
             <path>
               <item name="bcn-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="bcn-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bcn-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bcn-app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,12 +384,12 @@
       <workItem from="1559061862304" duration="1257000" />
       <workItem from="1559126728057" duration="4773000" />
       <workItem from="1559666119788" duration="7247000" />
-      <workItem from="1559732505214" duration="4258000" />
+      <workItem from="1559732505214" duration="4698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203145000" />
+    <option name="totallyTimeSpent" value="203585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -755,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/db_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/public/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -778,8 +763,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
