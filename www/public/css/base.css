@@ -1,5 +1,6 @@
 :root {
     --overlight: rgba(0,0,0,0.4);
+    --overlight_dark: rgba(0,0,0,0.6);
     --lightgray: rgba(0,0,0,0.2);
     --color-green-light: #29D9C2;
     --color-green-light-middle: #DAF0EA;
@@ -30,7 +31,7 @@ h4 {
 
 p {
     color: var(--color-black);
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 
@@ -116,7 +117,7 @@ form {
 }
 .info_box_overlight{
     background-color: transparent;
-    background: var(--overlight);
+    background: var(--overlight_dark);
     background-repeat: no-repeat;
     background-size: cover;
     padding:10px;
@@ -153,11 +154,19 @@ form {
     text-decoration: underline solid rgb(236, 247, 253);
     line-height: 24px;
 }
-.container_background{
+.container_background_bcn{
     height:auto;
     width: auto;
     background-color: transparent;
     background-image:url("../img/airplane.jpg");
+    background-size: cover;
+}
+
+.container_background_muc{
+    height:auto;
+    width: auto;
+    background-color: transparent;
+    background-image:url("../img/airplane_2.jpg");
     background-size: cover;
 }
 
