@@ -7,20 +7,15 @@
     <div>
         <h1>Hallo <?php echo $firstname; ?></h1>
         <p>
-            Danke, dass Du Dich für ein Programm für Samstagnachmittag entschieden hast. Die Umfrage ist nun geschlossen.
-            In den nächsten Wochen werden wir die Webseite immer wieder aktualisieren, deswegen hast Du sie hoffentlich
-            schon in Deinen Lesezeichen gespeichert.
-        </p>
-        <p>
-            Du wirst unter "Programm" Dein persönliches Barcelona Programm finden. Aktuell buchen wir gerade die
-            verschiedenen Aktivitäten. Bis dahin findest Du dort interessante Fakten über Barcelona, die Du vielleicht noch nicht kanntest.
+            Wir haben die Seite aktualisiert und Du findest jetzt hier die Daten zu Deiner An- und Abreise. Eine wichtige
+            Information ist, dass wir mit Handgepäck reisen. Alle Informationen dazu findest Du unter Anreise.
         </p>
         <p>
             Dein Orga-Team
         </p>
     </div>
 
-    <div class="separator_gray"></div>
+    <div class="separator_gray padding_top_10"></div>
     <div class="container_home_h4">
         <h4>Wichtigste Links</h4>
     </div>

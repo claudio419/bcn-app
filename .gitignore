@@ -1,0 +1,4 @@
+.idea
+.config
+config/db_config.php
+.idea/workspace.xml
