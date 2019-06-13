@@ -32,9 +32,9 @@
             <div class="inline_flex  info_box_overlight border_radius_10">
                 <div class="info">info</div>
 
-                    <p class="info_box info_text">Wir fliegen mit Handgepäck. Kontrolliert, ob euer
-                        Gepäckstück die richtigen Maße hat und vergesst nicht das ihr nur bestimmte Größen an Shampoo usw.
-                        mitnehmen dürft. Genauere Infos findet ihr
+                    <p class="info_box info_text">Wir fliegen mit Handgepäck. Du kannst also kein Gepäck aufgeben.
+                        Kontrollier, ob Dein Gepäckstück die richtigen Maße hat und vergiss nicht das Du nur bestimmte
+                        Größen an Shampoo usw. mitnehmen darfst. Genauere Infos findest du
                         <a class="info_link" href="https://hauptstadtkoffer.de/de/tipps-trips/gepaeckguide/airline/lufthansa"
                            target="_blank"> hier</a></p>
             </div>
