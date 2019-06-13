@@ -7,13 +7,13 @@
     <div>
         <h1>Hallo <?php echo $firstname; ?></h1>
         <p>
-            Danke, dass Du Dich für ein Programm für Samstagnachmittag entschieden hast. Die Umfrage ist nun geschlossen.
-            In den nächsten Wochen werden wir die Webseite immer wieder aktualisieren, deswegen hast Du sie hoffentlich
-            schon in Deinen Lesezeichen gespeichert.
+            Juhu - eine neue Seite auf unserer Barcelona Webseite ist gerade online gegangen.
+            Du findest jetzt unter "Unser Hotel" alle wichtigen Informationen zu dem Hotel wo wir wohnen werden.
         </p>
         <p>
-            Du wirst unter "Programm" Dein persönliches Barcelona Programm finden. Aktuell buchen wir gerade die
-            verschiedenen Aktivitäten. Bis dahin findest Du dort interessante Fakten über Barcelona, die Du vielleicht noch nicht kanntest.
+            Sobald wir Rückmeldung von dem Hotel zu unserem Zimmern bekommen haben, wirst du dort auch deinen Zimmerpartner finden.
+            Aktuell kannst Du Dir anschauen, wo das Hotel ist und was alles in der Umgebung dieses Hotels ist.
+
         </p>
         <p>
             Dein Orga-Team
@@ -28,7 +28,7 @@
     <div class="container_link_top">
         <a href="program_extra.php"><div class="btn_link btn_left" >Programm</div></a>
 <!--        <div class="btn_link btn_right">Restaurants</div>-->
-        <a href="orga.php"><div class="btn_link btn_right">Orga-Team</div></a>
+        <a href="Hotel.php"><div class="btn_link btn_right">Hotel</div></a>
     </div>
     <div class="container_link_button">
         <a href="flight_bcn.php"><div class="btn_link btn_left">Anreise</div></a>

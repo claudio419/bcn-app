@@ -1,5 +1,7 @@
 :root {
     --overlight: rgba(0,0,0,0.4);
+    --overlight_dark: rgba(0,0,0,0.6);
+    --lightgray: rgba(0,0,0,0.2);
     --color-green-light: #29D9C2;
     --color-green-light-middle: #DAF0EA;
     --color-withe: #FFFFFF;
@@ -9,6 +11,8 @@
     --color-gray-middle: #f7f7f7;
     --color-geen-deep: #2C858D;
     --color-green:#37A447;
+    --color-green-apple: #CAE7A8;
+    --color-red-strawberry: #C82D2D;
 }
 
 body, html {
@@ -27,7 +31,7 @@ h4 {
 
 p {
     color: var(--color-black);
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
 }
 
@@ -55,13 +59,21 @@ form {
     right: 0;
 }
 
+.padding_10 {
+    padding: 10px;
+}
 .padding_top_5 {
     padding-top: 5px;
+}
+
+.padding_bottom_50 {
+    padding-bottom: 50px;
 }
 
 .padding_top_10 {
     padding-top: 10px;
 }
+
 .padding_top_15 {
     padding-top: 15px;
 }
@@ -69,12 +81,20 @@ form {
 .padding_top_30 {
     padding-top: 30px;
 }
+
+.margin_top_15 {
+    margin-top: 15px;
+}
 .color_white{
     color: var(--color-withe);
 }
 
 .color_green_deep {
     color: var(--color-geen-deep);
+}
+
+.color_green_apple {
+    color: var(--color-green-apple);
 }
 
 .color_green {
@@ -87,6 +107,109 @@ form {
 
 .font_weight_bold {
     font-weight: bold;
+}
+.link_hotel_padding {
+    padding: 15px;
+}
+a:link {
+    color: var(--color-withe);
+    background-color: transparent;
+    text-decoration:underline;
+}
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.info_box{
+    width: 386px;
+    height: 152px;
+    border-radius: 20px;
+    background-color: #333333;
+    background-size: cover;
+}
+.info_box_overlight{
+    background-color: transparent;
+    background: var(--overlight_dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:10px;
+}
+.info{
+    width: auto;
+    height: 21px;
+    border-radius: 3px;
+    background-color:var(--color-red-strawberry);
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-size: 11px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 3px 10px 20px 6px;
+}
+.info_text{
+    width: auto;
+    height: auto;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none solid rgb(255, 255, 255);
+    line-height: 24px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.info_link{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #ecf7fd;
+    text-decoration: underline solid rgb(236, 247, 253);
+    line-height: 24px;
+}
+.container_background_bcn{
+    height:auto;
+    width: auto;
+    background-color: transparent;
+    background-image:url("../img/airplane.jpg");
+    background-size: cover;
+}
+
+.container_background_muc{
+    height:auto;
+    width: auto;
+    background-color: transparent;
+    background-image:url("../img/airplane_2");
+    background-size: cover;
+}
+.container_background_hotel{
+    height:auto;
+    width: auto;
+    background-color: transparent;
+    background-image:url("../img/hotel.jpg");
+    background-size: cover;
+}
+.container_background_overlight_hotel{
+     background-color: transparent;
+     background: var(--overlight_dark);
+     height: 100%;
+     width: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 10px;
+}
+
+.container_background_overlight{
+    background-color: transparent;
+    background: var(--lightgray);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
 }
 
 .font_size_16 {
