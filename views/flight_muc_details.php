@@ -16,7 +16,7 @@
         <h4 class="center color_green_apple font_weight_bold padding_top_30">Ankunft in Düsseldorf 19:40</h4>
 
     <?php } else { ?>
-    <h4 class="center color_green_apple  font_weight_bold padding_top_30">Ankunft in München 17:55</h4>
+    <h4 class="center color_green_apple  font_weight_bold padding_top_30">Ankunft in München 17:45</h4>
     <?php } ?>
 
       </div>
