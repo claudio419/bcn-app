@@ -26,9 +26,9 @@
     </div>
 
     <div class="container_link_top">
-        <a href="program_extra.php"><div class="btn_link btn_left" >Programm</div></a>
+        <a href="program_extra.php"><div class="btn_link btn_right" >Programm</div></a>
 <!--        <div class="btn_link btn_right">Restaurants</div>-->
-        <a href="Hotel.php"><div class="btn_link btn_right">Hotel</div></a>
+        <a href="Hotel.php"><div class="btn_link btn_left">Hotel</div></a>
     </div>
     <div class="container_link_button">
         <a href="flight_bcn.php"><div class="btn_link btn_left">Anreise</div></a>
