@@ -2,3 +2,4 @@
 .config
 config/db_config.php
 .idea/workspace.xml
+idea/workspace.xml
