@@ -109,8 +109,21 @@ form {
     font-weight: bold;
 }
 .link_hotel_padding {
-    padding: 15px;
+    padding:15px;
 }
+
+.numberCircle {
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    display:inline-block;
+    color: #333333;
+    text-decoration: none solid rgb(51, 51, 51);
+    font-size: 14px
+}
+
 a:link {
     color: var(--color-withe);
     background-color: transparent;
@@ -203,7 +216,7 @@ a:hover {
 
 .container_background_overlight{
     background-color: transparent;
-    background: var(--lightgray);
+    background: var(--overlight);
     height: 100%;
     width: 100%;
     background-position: center;
