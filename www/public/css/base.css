@@ -124,13 +124,13 @@ form {
 a:link {
     color: var(--color-withe);
     background-color: transparent;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 a:visited {
     color: var(--color-withe);
     background-color: transparent;
-    text-decoration:none;
+    text-decoration:underline;
 }
 a:hover {
     color: pink;
@@ -232,10 +232,9 @@ a:hover {
     font-size: 16px;
 }
 
-.width_img_100 {
+.width_100 {
     width: 100%;
 }
-
 
 .count_down {
     width: 100%;
@@ -455,6 +454,15 @@ a:hover {
 }
 .width_60_percent{
     width: 60%;
+}
+.width_40_percent{
+    width: 40%;
+}
+.width_20_percent {
+    width: 20%;
+}
+.width_80_percent {
+    width: 80%;
 }
 .program_choose_checkbox {
     padding: 0 0 0 0;
