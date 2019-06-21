@@ -121,6 +121,10 @@ form {
     text-decoration: none solid rgb(51, 51, 51);
     font-size: 14px
 }
+
+.margin_left_5 {
+    margin-left: 5px;
+}
 a:link {
     color: var(--color-withe);
     background-color: transparent;
@@ -463,6 +467,9 @@ a:hover {
 }
 .width_80_percent {
     width: 80%;
+}
+.width_auto{
+    width: auto;
 }
 .program_choose_checkbox {
     padding: 0 0 0 0;
