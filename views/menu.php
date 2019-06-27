@@ -36,7 +36,7 @@
 <!--        <a href="program.php">Umfrage</a>-->
         <a href="flight_bcn.php">Anreise</a>
         <a href="flight_muc.php">Abreise</a>
-        <!--a href="#about">Unser Hotel</a-->
+        <a href="hotel.php">Unser Hotel</a>
         <a href="orga.php">Orga Team</a>
         <a href="logout.php">Abmelden</a>
 
