@@ -210,6 +210,24 @@ a:hover {
     background-image:url("../img/hotel.jpg");
     background-size: cover;
 }
+.container_background_club{
+    height:auto;
+    width: auto;
+    background-color: transparent;
+    background-image:url("../img/club.jpg");
+    background-size: cover;
+}
+.container_background_overlight_club{
+    background-color: transparent;
+    background: var(--lightgray);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
 .container_background_overlight_hotel{
      background-color: transparent;
      background: var(--overlight_dark);
