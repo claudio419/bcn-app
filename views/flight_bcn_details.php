@@ -33,6 +33,17 @@
             <div class="inline_flex  info_box_overlight border_radius_10">
                 <div class="info">info</div>
 
+                <p class="info_box info_text">Du kannst Dich bereits 23 Stunden vor Abflug hier online einchecken,
+                    Deinen Sitzplatz auswählen und Deine online Bordkarte ausdrucken oder sie aufs Mobiltelefon
+                    senden lassen.Dafür folgst Du einfach den Anweisungen bei diesem
+                    <a class="info_link" href="https://www.lufthansa.com/at/de/online-check-in" >Link</a> und gibst Deinen Namen
+                    und die Buchungsnummer (die Du auch per Mail bekommen hast) ein.
+                    </p>
+            </div>
+
+            <div class="inline_flex  info_box_overlight border_radius_10 margin_top_15">
+                <div class="info">info</div>
+
                     <p class="info_box info_text">Wir fliegen mit Handgepäck. Du kannst also kein Gepäck aufgeben.
                         Bitte kontrolliere, ob Dein Gepäckstück klein genug für Handgepäck ist und beachte,
                         dass Du nur einen 1l-Plastikbeutel mit Flüssigkeiten mitnehmen darfst,
