@@ -22,8 +22,9 @@
 
             <div class="separator_gray"></div>
             <p class="padding_top_10  color_white">Flug: <b>Lufthansa LH1812</b></p>
-            <p class="padding_top_10  color_white">Treffpunkt: Abfluggate um 12:10 (bitte rechne ausreichend Zeit ein um rechtzeitig am Gate zu sein)</p>
             <p class="color_white padding_top_5">Wann: <b> München nach Barcelona: <br>12.07.2019 12:50 - 14:50 Uhr (LH1812)</br></b></p>
+
+            <p class="padding_top_10  color_white">Treffpunkt:<b>Abfluggate um 12:10 (bitte rechne<br> ausreichend Zeit ein um rechtzeitig am Gate zu sein)</b></p>
 
             <p class="padding_top_30  color_white ">In Barcelona</p>
             <div class="separator_gray padding_top_10"></div>
