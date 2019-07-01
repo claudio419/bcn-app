@@ -32,7 +32,7 @@
             <i class="fa fa-times close_icon" aria-hidden="true"></i>
         </a>
         <a href="home.php" class="active">Startseite</a>
-        <a href="program_extra.php">Programm</a>
+        <a href="program.php">Programm</a>
 <!--        <a href="program.php">Umfrage</a>-->
         <a href="flight_bcn.php">Anreise</a>
         <a href="flight_muc.php">Abreise</a>

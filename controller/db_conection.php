@@ -97,7 +97,7 @@
 
             $conn = $this->get_conn();
 
-            $sql = $sql = 'SELECT email FROM users where session_id=\'' . $session_id . '\';';
+            $sql = 'SELECT email FROM users where session_id=\'' . $session_id . '\';';
 
             $result = $conn->query($sql);
 
@@ -145,7 +145,7 @@
 
             $conn = $this->get_conn();
 
-            $sql = $sql = 'SELECT city_id FROM users where session_id=\'' . $session_id . '\';';
+            $sql = 'SELECT city_id FROM users where session_id=\'' . $session_id . '\';';
 
             $result = $conn->query($sql);
 
@@ -157,6 +157,160 @@
             } else {
                 return false;
             }
+
+        }
+
+        /**
+         * Get program id
+         *
+         * @param string $session_id
+         * @return int
+         */
+        function get_program_id($session_id) {
+
+
+            $conn = $this->get_conn();
+
+            $sql = 'SELECT program_id FROM users where session_id=\'' . $session_id . '\';';
+
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    return $row;
+                }
+
+            } else {
+                return false;
+            }
+
+        }
+
+        /**
+         * Get program id
+         *
+         * @param string $session_id
+         * @return int
+         */
+        function get_partner_email($session_id) {
+
+
+            $conn = $this->get_conn();
+
+            $sql = 'SELECT room_partner FROM users where session_id=\'' . $session_id . '\';';
+
+            $result = $conn->query($sql);
+
+            return $result->fetch_row()[0];
+
+
+        }
+
+        /**
+         * Get program id
+         *
+         * @param string $mail
+         * @return int
+         */
+        function get_partner_name($mail) {
+
+
+            $conn = $this->get_conn();
+
+            $sql = 'SELECT firstname, lastname FROM users where email=\'' . $mail . '\';';
+
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    return $row;
+                }
+
+            } else {
+                return false;
+            }
+
+        }
+
+        /**
+         * Get program id
+         *
+         * @param string $session_id
+         * @return int
+         */
+        function get_program_all_id($id) {
+
+
+            $conn = $this->get_conn();
+
+            $sql = 'SELECT firstname, lastname FROM users where program_id=\'' . $id . '\';';
+
+            $result = $conn->query($sql);
+
+            $member_list = [];
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    $member_list[] = $row;
+                }
+
+            }
+
+            return $member_list;
+
+        }
+
+        /**
+         * Get program extra
+         *
+         * @param string $session_id
+         * @return int
+         */
+        function get_program_extra($session_id) {
+
+
+            $conn = $this->get_conn();
+
+            $sql = 'SELECT program_extra FROM users where session_id=\'' . $session_id . '\';';
+
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    return $row;
+                }
+
+            } else {
+                return false;
+            }
+
+        }
+
+        /**
+         * Get program extra
+         *
+         * @param string $session_id
+         * @return array
+         */
+        function get_all_program_extra() {
+
+
+            $conn = $this->get_conn();
+
+            $sql = 'SELECT firstname, lastname FROM users where program_extra=\'yes\';';
+
+            $result = $conn->query($sql);
+
+            $member_list = [];
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    $member_list[] = $row;
+                }
+
+            }
+
+            return $member_list;
 
         }
     }

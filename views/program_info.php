@@ -1,163 +1,158 @@
 
+
+
 <div class="container program">
-    <h1 class="padding_top_15 color_green_deep">Was möchtest Du am Samstag Nachmittag unternehmen?</h1>
+    <div class="tipp border_radius_10 tipp_hide" id="tipp">
+        <div class="center tipp_title">
+            <i class="far fa-sun color_yellow"></i>
+            <a class="tipp_title_text">Hinweis</a>
+            <i class="far fa-sun color_yellow" id="sun_icon"></i>
+        </div>
+        <div class="tipp_body" id="tipp_body">
+            <p>
+                Bitte nimm ausreichend Wasser und Sonnencreme mit.
+                Im Juli ist es in Barcelona sehr heiß
+            </p>
+        </div>
+    </div>
+
+
+    <h1 class="padding_top_15 color_green_deep">Programm</h1>
 
     <p class="padding_top_15">
-        Barcelona ist eine tolle Stadt mit vielen  schönen Optionen, die Zeit zu verbringen.
-        Wir haben ein paar Programmpunkte herausgesucht, so dass für jeden etwas dabei sein sollte.
-        Es gibt Stadtführungen als Einstieg für alle, aber auch Barcelona-Kenner kommen garantiert auf Ihre Kosten.
+        Hier findest Du Infos zu deinem Programm für das Wochenende. Details zur An- und Abreise findest Du im Menü.
     </p>
 
-    <div class="separator_gray padding_top_15 bol"></div>
 
-    <h4 class="font-weight-bold padding_top_15">Was Du jetzt noch tun musst:</h4>
-    <div class="inline_flex">
-        <div class="circle_option">1</div>
-        <div class="circle_option_text">
-            <p>Lies Dir in Ruhe alle Programmpunkte durch.</p>
-            <p>Alle Programmpunkte sind Gruppenaktivitäten. Das heißt, du wirst bei der Aktivität alte und neue
-                Gesichter sehen und vor allem kennenlernen. Ihr werdet als Gruppe die Stadt oder einzelne
-                Sehenswürdigkeiten erkunden und eine Menge Spaß haben.
-            </p>
-        </div>
-    </div>
-
-    <div class="inline_flex padding_top_15">
-        <div class="circle_option">2</div>
-        <div class="circle_option_text">
-            <p>Wenn Du Deine Entscheidung getroffen hast, klicke auf diesen <a href="https://de.surveymonkey.com/r/Q37BVR3">Link</a>
-            oder auf den Button am Seitenende.
-            </p>
-            <p>Wir starten die regulären Aktivitäten bewusst erst am Samstagnachmittag. Wie fit Du am Samstag bist,
-                entscheidest natürlich Du. Unsere große Checkito-Party ist für Samstagabend angesetzt, aber natürlich
-                gibt es auch bereits am Freitagabend genügend Gelegenheit zum Feiern.
-            </p>
-        </div>
-
-    </div>
-
-    <div>
-        <p>Bitte triff bis <b>27.05.2019</b> Deine Entscheidung. <br />Bei Fragen melde Dich bei uns,</p>
-        <p>Dein Orga-Team</p>
-    </div>
+    <h4 class="color_green_deep padding_top_15 program_title"><a class="color_green_deep padding_top_15" href="#friday">Freitagabend - Programm</a></h4>
+    <h4 class="color_green_deep padding_top_15 program_title"><a class="color_green_deep padding_top_15" href="#saturday">Samstag - Programm</a></h4>
+    <h4 class="color_green_deep padding_top_15 program_title"><a class="color_green_deep padding_top_15" href="#sunday">Sonntag - Programm</a></h4>
 
     <div class="separator_gray padding_top_15 bol"></div>
 
-    <div class="inline_flex padding_top_15">
-        <div class="circle_option">1</div>
-        <div class="circle_option_text"><p>Lies Dir in Ruhe alle Programmpunkte durch.</p></div>
-    </div>
+    <h4 id="friday" class="color_green_deep padding_top_15">Freitagabend:</h4>
 
-    <div class="program_frame">
-        <p class="padding_top_15"><b class="font_weight_bold font_size_16">Chillen am Strand:</b></p>
-        <img src="public/img/program_beach.JPG" class="program_img border_radius_10">
+    <div class="container program">
+
+    </div>
+    <div class="program_frame border_radius_10">
+        <p class="padding_top_10"></p>
+        <img src="public/img/aguelo.jpg" class="program_img border_radius_10">
         <p class="padding_top_15 font_size_16">
-            Du möchtest Dich von der durchfeierten Nacht erholen oder einfach nur einen entspannten
-            Tag am Strand genießen? Dann sei Dir das gegönnt.<br />
-            Wähle diese Option bitte auch, wenn Du mit anderen zusammen die Stadt erkunden willst
-            und Ihr Euer eigenes Tagesprogramm plant.
+            Freitagabend wollen wir mit euch einen schönen Abend im <b>Agüelo013</b> verbringen. Wir treffen uns um 19:30 im
+            Emfpangsbereich vom Hotel und gehen dann gemeinsam zu dem Restaurant. Dort haben wir einen Tisch für 20:00
+            reserviert.
         </p>
-        <p class="font_size_16">Der Strand ist ca. 15 Minuten vom Hotel entfernt. Die Aktivität kannst du also auch am Vormittag machen und
-            kannst für den Nachmittag eines der anderen Aktivitäten auswählen.
-        </p>
-        <p class="font_size_16">
-            <b>Startzeit und Dauer:</b> Beginnt und endet dann, wann es Dir passt.
-        </p>
-
     </div>
+    <div class="separator_gray padding_top_15 bol" id="saturday"></div>
 
-    <div class="program_frame">
-        <p class="padding_top_15"><b class="font_weight_bold font_size_16">Park Montjuic:</b></p>
-        <img src="public/img/program_montjuic.JPG" class="program_img border_radius_10">
-        <p class="padding_top_15 font_size_16">
-            Der Park Montjuic gilt als eine der schönsten Sehenswürdigkeiten Barcelonas. Fahr mit der Seilbahn aus der
-            Stadt auf den bekanntesten Berg Barcelonas und genieß den Panaroma auf die Stadt und die Vielfalt vom
-            Olympiastadion über Paläste bis zu Parks, die der Berg zu bieten hat.
-        </p>
-        <p class="font_size_16">
-            <b>Startzeit und Dauer:</b> Du bekommst von uns am Vorabend die Karte für die Seilbahn und kannst dann selber
-            entscheiden wann und wie lange Du Dich dort aufhalten willst.
-        </p>
+    <h4 class="color_green_deep padding_top_15">Samstag</h4>
 
-    </div>
-
-    <div class="program_frame">
-        <p class="padding_top_15"><b class="font_weight_bold font_size_16">Stadtführung:</b></p>
-        <img src="public/img/program_stadfuehrung.png" class="program_img border_radius_10">
-        <p class="padding_top_15 font_size_16">
-            Am besten erkundet man eine Stadt immer zu Fuß. Bei dieser Aktivität zeigt Dir ein Führer die Altstadt von
-            Barcelona, die mit ihren schmalen mittelalterlichen Gassen und der imposanten gotischen Architektur das Herzen der Stadt bildet.
-        </p>
-        <p class="font_size_16">
-            <b>Startzeit:</b> ca. 14 Uhr <br />
-            <b>Dauer:</b> 1,5 Stunden
-        </p>
-
-    </div>
-
-    <div class="program_frame">
-        <p class="padding_top_15"><b class="font_weight_bold font_size_16">Sagrada Familia:</b></p>
-        <img src="public/img/sagrada_flia.png" class="program_img border_radius_10">
-        <p class="padding_top_15 font_size_16">
-            Besuche das wohl berühmteste Gebäude Barcelonas. Lass Dich von einem kundigen Führer in die „Geheimnisse“
-            der Fassade einführen und von dem intensiven farbigen Licht im Inneren der Kirche verzaubern.
-        </p>
-        <p class="font_size_16">
-            <b>Startzeit:</b> ca. 14 Uhr <br />
-            <b>Dauer:</b> 2-3 Stunden
-        </p>
-
-    </div>
-
-    <div class="program_frame">
-        <p class="padding_top_15"><b class="font_weight_bold font_size_16">Segway-Tour:</b></p>
-        <img src="public/img/program_segw.JPG" class="program_img border_radius_10">
-        <p class="padding_top_15 font_size_16">
-            Kombiniere Sightseeing und Action. Mit einem Führer wirst Du auf dem Segway nicht nur die Wahrzeichen
-            Barcelonas hautnah erleben, sondern auch Eindrücke von der gesamten Stadt bekommen.
-        </p>
-        <p class="font_size_16">
-            <b>Startzeit:</b> ca. 14 Uhr <br />
-            <b>Dauer:</b> 2 Stunden
-        </p>
-
-    </div>
-
-    <div class="program_frame">
-        <p class="padding_top_15"><b class="font_weight_bold font_size_16">Camp Nou:</b></p>
-        <img src="public/img/program_barca.png" class="program_img border_radius_10">
-        <p class="padding_top_15 font_size_16">
-            Besichtige die Heimat des Futbol Club Barcelona und gleichzeitig das größte Stadion Europas, das Camp Nou.
-            Jeder Fußballbegeisterte wird hier auf seine Kosten kommen – versprochen!
-        </p>
-        <p class="font_size_16">
-            <b>Startzeit:</b> 13:00 Uhr <br />
-            <b>Dauer:</b> 3 Stunden
-        </p>
-
-    </div>
-
-    <div class="program_frame program_frame_option">
-        <p class="padding_top_15"><b class="font_weight_bold font_size_16">Optional: Hop-on Hop-off Bustour:</b></p>
-        <img src="public/img/program_hop_on_hop_off.jpg" class="program_img border_radius_10">
-        <p class="padding_top_15 font_size_16">
-            Du bist Frühaufsteher und möchtest mit ein paar anderen Entschlossenen auch schon den Vormittag für Sightseeing nutzen? Dann bieten wir Dir die
-            Möglichkeit, hier zusätzlich ein Ticket für einen Hop-on Hop-off Bus zu buchen.
-        </p>
-        <p class="font_size_16">Eine Rund-Tour dauert ohne Ausstieg 2 Stunden.</p>
-    </div>
-
-    <div class="separator_gray padding_top_15"></div>
-
-    <div class="inline_flex padding_top_15">
-        <div class="circle_option">2</div>
-        <div class="circle_option_text">
-            <p>Du hast Deine Auswahl getroffen? Dann klicke auf diesen Button und teile uns bitte verbindlich <b class="font_weight_bold font_size_16">bis zum
-                    27.5.2019</b> mit, was Du gerne unternehmen möchtest.
+    <?php if ($program_extra === 'yes') { ?>
+        <div class="program_frame">
+            <p class="padding_top_15"><b class="font_weight_bold font_size_16">Optional: Hop-on Hop-off Bustour:</b></p>
+            <img src="public/img/program_hop_on_hop_off.jpg" class="program_img border_radius_10">
+            <p class="padding_top_15 font_size_16">
+                Um Barcelona in kürzester Zeit zu erkunden, hast Du Dich für das Hop-on-Hop-off-Ticket entschieden.
             </p>
+            <p class="padding_top_15 font_size_16">
+                Der Doppeldecker bringt Dich zu den eindrucksvollsten Sehenswürdigkeiten Barcelonas.
+            </p>
+            <p class="padding_top_15 font_size_16">
+                Per Audioguide wirst Du zudem einige wissenswerte Informationen über Barcelona sammeln können.
+            </p>
+            <p class="font_size_16 padding_top_15">Eine Rund-Tour dauert ohne Ausstieg 2 Stunden.</p>
+            <p class="font_size_16 padding_top_15">Die nächstgelegene Haltestelle für die Stadtrundfahrt findest Du direkt beim  Parc
+                de la Ciutadella, der sich unmittelbar vor dem Hotel befindet</p>
+            <p class="font_size_16 padding_top_15">Man kann 3 verschiedene Routen mit insgesamt 45 Haltestellen befahren, bei den es 5
+                Schnittstellen gibt. Nähere Infos findest Du
+                <a class="color_black" href="https://www.holabarcelona.com/de/tickets/barcelona-hop-on-hop-off-bus-tour">hier</a>
+            </p>
+            <p class="font_size_16 padding_top_15">
+                Außerdem kannst Du es auch so planen, dass Du direkt bei deiner gewählten Tagesaktivität aussteigst, da
+                der Bus auch am Parc Montjuic, Camp Nou, an der Sagrada Família oder auch am Strand hält .
+            </p>
+            <p class="font_size_16 padding_top_15">
+                Bitte berücksichtige bei Deiner Tagesplanung, dass eine Route bis zu 2 Stunden dauern kann.
+            </p>
+
+            <p class="padding_top_15 font_size_16">
+                Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest du hier die Liste der Kollegen.
+            </p>
+
+            <div class="popup toogle">
+                <div class="popup_title popup_title_close" id="member_title">
+                    Liste Deiner Kollegen
+                    <i class="fa fa-times padding_left_10" id="member_close_box" aria-hidden="true"></i>
+                    <i class="fa fa-angle-down padding_left_10" id="member_open_box"></i>
+                </div>
+                <div class="popup_body" id="member_body">
+                        <?php
+                            foreach ($program__all_extra as $item) {
+                        ?>
+                    <p><?php echo $item['firstname'] . ' ' . $item['lastname'] ;?></p>
+                    <?php
+                        }
+                    ?>
+
+                </div>
+            </div>
+
         </div>
 
+    <?php }?>
+
+
+
+
+    <?php
+
+        if ($program_id == 1) {
+            include 'camp_now.php';
+        }
+
+        if ($program_id == 2) {
+            include 'strand.php';
+        }
+
+        if ($program_id == 3) {
+            include 'park.php';
+        }
+
+        if ($program_id == 4) {
+            include 'sagrada_familia.php';
+        }
+
+        if ($program_id == 5) {
+            include 'segway.php';
+        }
+
+    ?>
+
+    <h4 id="friday" class="color_green_deep padding_top_15">Samstagabend:</h4>
+
+    <div class="margin_top_15 container_background_party border_radius_10">
+        <div class="container_background_overlight_hotel border_radius_10 ">
+            <p class="color_white padding_top_10">Samstag erwartet Dich unsere CHECKITO-Party. Aber lass dich einfach überraschen</p>
+            <p class="color_white padding_top_10">So viel vorab; um 19:45 treffen wir uns im Emfpangsbereich von dem Hotel. Uns wird dann ein Shuttlebus
+                abholen und zur Location bringen.
+            </p>
+            <p class="color_white padding_top_10">
+                Die Party steht unter dem Motto: Beachparty. Kleide dich sommerlich - luftig.
+            </p>
+            <p class="color_white padding_top_10">
+                Freue Dich auf einen Abend mit einer Menge Spaß in einer tollen Location!
+            </p>
+        </div>
     </div>
-    <a href="https://de.surveymonkey.com/r/Q37BVR3"><button class="btn btn-primary btn_login">zur Umfrage</button></a>
+
+    <div id="sunday"></div>
+
+    <h4 id="friday" class="color_green_deep padding_top_15">Sonntag:</h4>
+
+    <p class="color_black padding_top_10">
+        Sonntag lassen wir unsere Reise bei einem gemütlichen Frühstück im Hotel ausklingen. Wir werden dann gegen
+        Mittag von dem Hotel angeholt. Genauere Infos dazu findest du unter <a class="color_black" href="flight_muc.php">Abreise</a>.
+    </p>
 
 </div>

@@ -8,6 +8,9 @@
         exit();
     }
 
+    $partner_email = $ctrl_content->get_partner_email();
+    $partner_names = $ctrl_content->get_partner_name($partner_email);
+
 ?>
 
 <!DOCTYPE html>

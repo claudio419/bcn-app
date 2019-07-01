@@ -7,6 +7,21 @@
         <div class="container_background_overlight_hotel border_radius_10">
 
             <div class="inline_flex padding_top_10 color_white width_100">
+                <div class="left color_white width_40_percent">
+                    <p class="color_white">Zimmernachbar: </p>
+                </div>
+                <div class="right width_60_percent">
+                    <p class="color_white">
+                        <?php
+                            if (!empty($partner_names)) {
+                                echo $partner_names['firstname'] . ' ' . $partner_names['lastname'];
+                            }
+                        ?>
+                    </p>
+                </div>
+            </div>
+
+            <div class="inline_flex padding_top_10 color_white width_100">
                 <div class="left color_white width_30_percent">
                     <p class="color_white">Name: </p>
                 </div>
@@ -20,7 +35,7 @@
                     <p class="color_white">Wo: </p>
                 </div>
                 <div class="right width_60_percent">
-                    <p class="color_white"><a href="https://goo.gl/maps/WM7SRNYx7LakaV5B8"> Passeig de Pujades, 11-13, 08018  Barcelona</a></p>
+                    <p class="color_white word_wrap"><a href="https://goo.gl/maps/WM7SRNYx7LakaV5B8"> Passeig de Pujades, 11-13, 08018  Barcelona</a></p>
                 </div>
             </div>
 
@@ -30,7 +45,7 @@
                     <p class="color_white">Frühstück: </p>
                 </div>
                 <div class="right width_60_percent">
-                    <p class="color_white">Täglich wird von 7:00 - 11:00 Uhr ein Frühstücksbuffet angeboten.</p>
+                    <p class="color_white">Täglich wird von 7:00 - 11:00 Uhr <br /> ein Frühstücksbuffet angeboten.</p>
                 </div>
             </div>
 
