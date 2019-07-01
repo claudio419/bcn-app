@@ -2,7 +2,6 @@
     $firstname = (isset($_COOKIE['firstname']) && !empty($_COOKIE['firstname'])) ? $_COOKIE['firstname'] : '';
 ?>
 
-
 <div class="container home_body">
     <div>
         <h1>Hallo <?php echo $firstname; ?></h1>
@@ -46,7 +45,6 @@
 
     <div class="container_link_top">
         <a href="program.php"><div class="btn_link btn_right" >Programm</div></a>
-<!--        <div class="btn_link btn_right">Restaurants</div>-->
         <a href="hotel.php"><div class="btn_link btn_left">Hotel</div></a>
     </div>
     <div class="container_link_button">

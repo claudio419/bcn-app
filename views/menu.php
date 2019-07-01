@@ -33,7 +33,6 @@
         </a>
         <a href="home.php" class="active">Startseite</a>
         <a href="program.php">Programm</a>
-<!--        <a href="program.php">Umfrage</a>-->
         <a href="flight_bcn.php">Anreise</a>
         <a href="flight_muc.php">Abreise</a>
         <a href="hotel.php">Unser Hotel</a>
