@@ -75,6 +75,123 @@ include 'db_conection.php';
         }
 
         /**
+         * Get Program id
+         *
+         * return int
+         */
+        public function get_program_id() {
+
+            $con = new db_conection();
+
+            $session_id = (isset($_COOKIE['PHPSESSID']) && !empty($_COOKIE['PHPSESSID'])) ? strip_tags($_COOKIE['PHPSESSID']) : '';
+
+            if(!empty($session_id)) {
+
+                $program_id = $con->get_program_id(strip_tags($session_id));
+
+                return ($program_id) ? (int) $program_id['program_id'] : 0;
+            }
+
+        }
+
+        /**
+         * Get Program id
+         *
+         * return int
+         */
+        public function get_program_all_by_id($id) {
+
+            $con = new db_conection();
+
+                $program_all_id = $con->get_program_all_id(strip_tags($id));
+
+                return $program_all_id;
+
+        }
+
+        /**
+         * Get Program extra
+         *
+         * return bool
+         */
+        public function get_program_extra() {
+
+            $con = new db_conection();
+
+            $session_id = (isset($_COOKIE['PHPSESSID']) && !empty($_COOKIE['PHPSESSID'])) ? strip_tags($_COOKIE['PHPSESSID']) : '';
+
+            if(!empty($session_id)) {
+
+                $program_extra = $con->get_program_extra(strip_tags($session_id));
+
+                return ($program_extra) ? $program_extra['program_extra'] : false;
+
+            }
+
+        }
+
+        /**
+         * Get all Program extra
+         *
+         * return bool
+         */
+        public function get_all_program_extra() {
+
+            $con = new db_conection();
+
+            $program_all_extra = $con->get_all_program_extra();
+
+            return $program_all_extra;
+
+        }
+
+        /**
+         * Get Program id
+         *
+         * return int
+         */
+        public function get_partner_email() {
+
+            $con = new db_conection();
+
+            $session_id = (isset($_COOKIE['PHPSESSID']) && !empty($_COOKIE['PHPSESSID'])) ? strip_tags($_COOKIE['PHPSESSID']) : '';
+
+            if(!empty($session_id)) {
+
+                $partner_mail = $con->get_partner_email(strip_tags($session_id));
+
+
+                return ($partner_mail) ? $partner_mail : [];
+            }
+
+        }
+
+        /**
+         * Get Program id
+         *
+         * @param string $mail Email
+         *
+         * return array
+         */
+        public function get_partner_name($mail) {
+
+            $con = new db_conection();
+
+
+            if (!$mail) {
+                return '';
+            }
+
+            $mail = strtolower($mail);
+
+            $partner_name = $con->get_partner_name(strip_tags($mail));
+
+            return $partner_name;
+        }
+
+
+
+        /**
          * Save program option
          */
         public function save_program_option(){

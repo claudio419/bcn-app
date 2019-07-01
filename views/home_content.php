@@ -7,17 +7,36 @@
     <div>
         <h1>Hallo <?php echo $firstname; ?></h1>
         <p>
-            Juhu - eine neue Seite auf unserer Barcelona Webseite ist gerade online gegangen.
-            Du findest jetzt unter "Unser Hotel" alle wichtigen Informationen zu dem Hotel wo wir wohnen werden.
+            es gibt wieder ein neues Update und es sind nur mehr wenige Wochen bis wir starten! Unter Programm findest
+            Du nun den Ablauf des Wochenendes.
+
         </p>
         <p>
-            Sobald wir Rückmeldung von dem Hotel zu unserem Zimmern bekommen haben, wirst du dort auch deinen Zimmerpartner finden.
-            Aktuell kannst Du Dir anschauen, wo das Hotel ist und was alles in der Umgebung dieses Hotels ist.
-
+            Besonders wichtig lies Dir den Hinweis durch und entscheide ob Du eine Auslandskrankenversicherung abschließen willst.
         </p>
         <p>
             Dein Orga-Team
         </p>
+    </div>
+
+    <div>
+        <div class="popup toogle">
+            <div class="popup_title popup_title_close" id="popup_title">
+                Reiseversicherung
+                <i class="fa fa-times padding_left_10" id="close_box" aria-hidden="true"></i>
+                <i class="fa fa-angle-down padding_left_10" id="open_box"></i>
+            </div>
+            <div class="popup_body" id="popup_body">
+                <p>
+                    Innerhalb der EU sind die meisten Fälle durch die deutsche Krankenversicherung abgedeckt. Es gibt jedoch
+                    Fälle die nicht abgedeckt sind, dann ist es viel günstiger eine Reisekrankenversicherung zu haben als die
+                    Kosten privat zu übernehmen. Du kannst direkt bei uns vergleichen und Dir anschauen ob sich eine Versicherung
+                    lohnen würde. Klicke einfach <a class="color_black" href="https://reiseversicherung.check24.de/desktop/calculation/check24/input">hier</a>
+                </p>
+
+            </div>
+        </div>
+
     </div>
 
     <div class="separator_gray"></div>
@@ -26,7 +45,7 @@
     </div>
 
     <div class="container_link_top">
-        <a href="program_extra.php"><div class="btn_link btn_right" >Programm</div></a>
+        <a href="program.php"><div class="btn_link btn_right" >Programm</div></a>
 <!--        <div class="btn_link btn_right">Restaurants</div>-->
         <a href="hotel.php"><div class="btn_link btn_left">Hotel</div></a>
     </div>
@@ -47,3 +66,4 @@
     <?php include '../views/orga_team.php';?>
 
 </div>
+

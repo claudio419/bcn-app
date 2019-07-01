@@ -9,8 +9,11 @@
         exit();
     }
 
-    $ctrl_content->save_program_option();
+    $program_id         = $ctrl_content->get_program_id();
+    $program_all        = $ctrl_content->get_program_all_by_id($program_id);
 
+    $program_extra      = $ctrl_content->get_program_extra();
+    $program__all_extra = $ctrl_content->get_all_program_extra();
 
 ?>
 

@@ -13,6 +13,7 @@
     --color-green:#37A447;
     --color-green-apple: #CAE7A8;
     --color-red-strawberry: #C82D2D;
+    --color-yellow : #ffd34e;
 }
 
 body, html {
@@ -89,7 +90,11 @@ form {
 }
 
 .color_green_deep {
-    color: var(--color-geen-deep);
+    color: var(--color-geen-deep) !important;
+}
+
+.color_black {
+    color: var(--color-black) !important;
 }
 
 .color_green_apple {
@@ -97,7 +102,10 @@ form {
 }
 
 .color_green {
-    color: var(--color-green);
+    color: var(--color-green) !important;
+}
+.color_yellow {
+    color: var(--color-yellow);
 }
 
 .color_primary {
@@ -196,6 +204,9 @@ a:hover {
     background-size: cover;
 }
 
+.word_wrap {
+    word-wrap: break-word;
+}
 .container_background_muc{
     height:auto;
     width: auto;
@@ -208,6 +219,13 @@ a:hover {
     width: auto;
     background-color: transparent;
     background-image:url("../img/hotel.jpg");
+    background-size: cover;
+}
+.container_background_party{
+    height:auto;
+    width: auto;
+    background-color: transparent;
+    background-image:url("../img/party.jpg");
     background-size: cover;
 }
 .container_background_overlight_hotel{
@@ -539,4 +557,69 @@ a:hover {
 
 .checkbox label input[type="checkbox"]:disabled+.cr {
     opacity: .5;
+}
+
+.popup{
+    width: 95%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.popup_title {
+    background-color: #0c8cd5;
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    color: var(--color-withe);
+    text-align: center;
+    padding: 10px;
+}
+
+.popup_title_close {
+    border-radius: 10px;
+}
+
+.popup_body {
+    background-color:#fffad5;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+.padding_left_10 {
+    padding-left: 10px;
+}
+
+.program_title {
+    text-decoration: underline;
+    color: #0080d6;
+}
+
+.tipp {
+    position: fixed;
+    background-color:#fffad5;
+    height: auto;
+
+
+}
+
+.tipp_hide {
+    top:100px;
+    right: -40px;
+    height: auto;
+    transform: rotate(-90deg);
+}
+
+.tipp_title {
+    background-color:#d57373;
+    border-radius: 10px 10px 0 0;
+    height: 40px;
+    color: var(--color-withe);
+    text-align: center;
+    padding: 10px;
+}
+.tipp_title_text {
+    padding: 0 10px 0 10px;
+}
+
+.tipp_body {
+    padding: 10px;
 }
