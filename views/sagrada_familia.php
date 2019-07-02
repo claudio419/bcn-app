@@ -26,14 +26,15 @@
         Büro Nr. 3
     </p>
     <p>
-        Carrer Sardenya 311
+        <a class="color_black"
+           href="https://www.google.com/maps/place/Carrer+de+Sardenya,+311,+08025+Barcelona,+Spanien/@41.4035685,2.1704294,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a2c31b741e11:0x308f30c5d346be3a!8m2!3d41.4035645!4d2.1726181">Carrer Sardenya 311</a>
     </p>
     <p>
-        08025 Barcelona
+        <a class="color_black" href="https://www.google.com/maps/place/Carrer+de+Sardenya,+311,+08025+Barcelona,+Spanien/@41.4035685,2.1704294,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a2c31b741e11:0x308f30c5d346be3a!8m2!3d41.4035645!4d2.1726181">08025 Barcelona</a>
     </p>
 
     <p class="padding_top_15 font_size_16">
-        Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest du hier die Liste der Kollegen.
+        Wenn Dich interessiert, wer noch bei dieser Aktivität dabei ist, findest Du hier die Liste der teilnehmenden Kollegen.
     </p>
 
     <div class="popup toogle">

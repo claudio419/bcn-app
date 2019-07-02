@@ -39,7 +39,8 @@
         <p class="padding_top_10"></p>
         <img src="public/img/aguelo.jpg" class="program_img border_radius_10">
         <p class="padding_top_15 font_size_16">
-            Freitagabend wollen wir mit euch einen schönen Abend im <b>Agüelo013</b> verbringen. Wir treffen uns um 19:30 im
+            Freitagabend wollen wir mit Euch einen schönen Abend im
+            <b><a class="color_black" href="http://aguelo013.es/">Agüelo013</a></b> verbringen. Wir treffen uns um 19:30 im
             Emfpangsbereich vom Hotel und gehen dann gemeinsam zu dem Restaurant. Dort haben wir einen Tisch für 20:00
             reserviert.
         </p>
@@ -53,7 +54,7 @@
             <p class="padding_top_15"><b class="font_weight_bold font_size_16">Optional: Hop-on Hop-off Bustour:</b></p>
             <img src="public/img/program_hop_on_hop_off.jpg" class="program_img border_radius_10">
             <p class="padding_top_15 font_size_16">
-                Um Barcelona in kürzester Zeit zu erkunden, hast Du Dich für das Hop-on-Hop-off-Ticket entschieden.
+                Um Barcelona in kürzester Zeit zu erkunden, hast Du Dich für das Hop-on Hop-off-Ticket entschieden.
             </p>
             <p class="padding_top_15 font_size_16">
                 Der Doppeldecker bringt Dich zu den eindrucksvollsten Sehenswürdigkeiten Barcelonas.
@@ -61,23 +62,23 @@
             <p class="padding_top_15 font_size_16">
                 Per Audioguide wirst Du zudem einige wissenswerte Informationen über Barcelona sammeln können.
             </p>
-            <p class="font_size_16 padding_top_15">Eine Rund-Tour dauert ohne Ausstieg 2 Stunden.</p>
             <p class="font_size_16 padding_top_15">Die nächstgelegene Haltestelle für die Stadtrundfahrt findest Du direkt beim  Parc
-                de la Ciutadella, der sich unmittelbar vor dem Hotel befindet</p>
+                de la Ciutadella, der sich unmittelbar vor dem Hotel befindet.</p>
             <p class="font_size_16 padding_top_15">Man kann 3 verschiedene Routen mit insgesamt 45 Haltestellen befahren, bei den es 5
                 Schnittstellen gibt. Nähere Infos findest Du
                 <a class="color_black" href="https://www.holabarcelona.com/de/tickets/barcelona-hop-on-hop-off-bus-tour">hier</a>
             </p>
             <p class="font_size_16 padding_top_15">
-                Außerdem kannst Du es auch so planen, dass Du direkt bei deiner gewählten Tagesaktivität aussteigst, da
-                der Bus auch am Parc Montjuic, Camp Nou, an der Sagrada Família oder auch am Strand hält .
+                Außerdem kannst Du es auch so planen, dass Du direkt bei Deiner gewählten Tagesaktivität aussteigst, da
+                der Bus auch am Parc Montjuic, Camp Nou, an der Sagrada Família oder auch am Strand hält.
             </p>
             <p class="font_size_16 padding_top_15">
                 Bitte berücksichtige bei Deiner Tagesplanung, dass eine Route bis zu 2 Stunden dauern kann.
             </p>
 
             <p class="padding_top_15 font_size_16">
-                Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest du hier die Liste der Kollegen.
+                Wenn Du Dich mit anderen Kollegen zusammenschließen willst, findest Du hier die Liste der Kollegen,
+                die ebenfalls ein Busticket haben.
             </p>
 
             <div class="popup toogle">
@@ -133,12 +134,15 @@
 
     <div class="margin_top_15 container_background_party border_radius_10">
         <div class="container_background_overlight_hotel border_radius_10 ">
-            <p class="color_white padding_top_10">Samstag erwartet Dich unsere CHECKITO-Party. Aber lass dich einfach überraschen</p>
-            <p class="color_white padding_top_10">So viel vorab; um 19:45 treffen wir uns im Emfpangsbereich von dem Hotel. Uns wird dann ein Shuttlebus
+            <p class="color_white padding_top_10">
+                Samstag erwartet Dich unsere CHECKITO-Party. Aber lass dich einfach überraschen
+            </p>
+            <p class="color_white padding_top_10">
+                So viel vorab; um <b>19:45</b> treffen wir uns im Emfpangsbereich von dem Hotel. Uns wird dann ein Shuttlebus
                 abholen und zur Location bringen.
             </p>
             <p class="color_white padding_top_10">
-                Die Party steht unter dem Motto: Beachparty. Kleide dich sommerlich - luftig.
+                Die Party steht unter dem Motto: <b>Beachparty.</b> Kleide dich sommerlich - luftig.
             </p>
             <p class="color_white padding_top_10">
                 Freue Dich auf einen Abend mit einer Menge Spaß in einer tollen Location!
@@ -152,7 +156,7 @@
 
     <p class="color_black padding_top_10">
         Sonntag lassen wir unsere Reise bei einem gemütlichen Frühstück im Hotel ausklingen. Wir werden dann gegen
-        Mittag von dem Hotel angeholt. Genauere Infos dazu findest du unter <a class="color_black" href="flight_muc.php">Abreise</a>.
+        Mittag von dem Hotel angeholt. Genauere Infos dazu findest Du unter <a class="color_black" href="flight_muc.php">Abreise</a>.
     </p>
 
 </div>
