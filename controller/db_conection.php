@@ -243,7 +243,7 @@
 
             $conn = $this->get_conn();
 
-            $sql = 'SELECT firstname, lastname FROM users where program_id=\'' . $id . '\';';
+            $sql = 'SELECT firstname, lastname FROM users where program_id=\'' . $id . '\' ORDER BY firstname;';
 
             $result = $conn->query($sql);
 
@@ -297,7 +297,7 @@
 
             $conn = $this->get_conn();
 
-            $sql = 'SELECT firstname, lastname FROM users where program_extra=\'yes\';';
+            $sql = 'SELECT firstname, lastname FROM users where program_extra=\'yes\'  ORDER BY firstname;';
 
             $result = $conn->query($sql);
 

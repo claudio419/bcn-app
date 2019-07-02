@@ -190,42 +190,6 @@ include 'db_conection.php';
         }
 
 
-
-        /**
-         * Save program option
-         */
-        public function save_program_option(){
-
-
-//            if(isset($_POST) && sizeof($_POST) >0){
-//
-//                $program_id = '';
-//                $program_extra = '';
-//                $email = '';
-//
-//                $con = new db_conection();
-//
-//                if(isset($_SESSION['email']) && !empty($_SESSION['email'])) {
-//                   $email = strip_tags($_SESSION['email']);
-//                }
-//
-//                if(isset($_POST['hop_on_hop_off']) && !empty($_POST['hop_on_hop_off'])) {
-//                    $program_extra = strip_tags($_POST['hop_on_hop_off']);
-//                }
-//
-//                if(isset($_POST['program_choosed']) && !empty($_POST['program_choosed'])) {
-//                    $program_id = strip_tags($_POST['program_choosed']);
-//                }
-//
-//                $con->set_program_by_email($program_id, $program_extra, $email);
-//
-//                $_SESSION['program_extra'] = $program_extra;
-//                $_SESSION['program_extra'] = $program_id;
-//
-//            }
-
-        }
-
     }
 
 ?>

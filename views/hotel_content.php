@@ -11,12 +11,13 @@
                     <p class="color_white">Zimmernachbar: </p>
                 </div>
                 <div class="right width_60_percent">
-                    <p class="color_white">
+                    <p class="color_white"><b>
                         <?php
                             if (!empty($partner_names)) {
                                 echo $partner_names['firstname'] . ' ' . $partner_names['lastname'];
                             }
                         ?>
+                        </b>
                     </p>
                 </div>
             </div>

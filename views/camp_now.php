@@ -30,7 +30,7 @@
         Denk allerdings daran, dass Du rechtzeitig im Hotel sein musst, um Dich für das Abendprogramm fertigzumachen.
     </p>
     <p class="padding_top_15 font_size_16">
-        Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest du hier die Liste der Kollegen.
+        Wenn Dich interessiert, wer noch bei dieser Aktivität dabei ist, findest Du hier die Liste der teilnehmenden Kollegen.
     </p>
 
     <div class="popup toogle">
