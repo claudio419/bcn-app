@@ -215,7 +215,7 @@ a:hover {
     position: absolute;
     width: 170px;
     margin: -45px 0 0 -20px;
-    padding: 70px 20px;
+    padding: 70px 20px 0;
     background: #dfe5f5;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
