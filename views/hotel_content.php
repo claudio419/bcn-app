@@ -1,7 +1,7 @@
 <div class="container padding_top_5">
     <h1 class="color_green_deep padding_top_15">Hotel</h1>
     <p>
-        Hier findest du Infos zu dem Hotel und deinem Zimmer.
+        Hier findest Du Infos zu dem Hotel und Deinem Zimmer.
     </p>
     <div class="margin_top_15 container_background_hotel border_radius_10">
         <div class="container_background_overlight_hotel border_radius_10">
@@ -196,7 +196,7 @@
                     <p class="color_white">Check-In:</p>
                 </div>
                 <div class="right width_60_percent">
-                    <p class="color_white"> Ihr kommt am Freitag gemeinsam im Hotel an. Dort wirst Du von dem Orga - Team deine Zimmerkarte bekommen</p>
+                    <p class="color_white"> Ihr kommt am Freitag gemeinsam im Hotel an. Dort wirst Du von dem Orga - Team Deine Zimmerkarte bekommen</p>
                 </div>
             </div>
             <div class="inline_flex padding_top_10 color_white width_100">

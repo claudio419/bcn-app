@@ -7,7 +7,7 @@
         <h1>Hallo <?php echo $firstname; ?></h1>
         <p>
             es gibt wieder ein neues Update und es sind nur mehr wenige Wochen bis wir starten! Unter Programm findest
-            Du Dein persönliches Programm inkl. dem Motto für unsere Party am Samstagabend
+            Du Dein persönliches Programm inkl. dem Motto für unsere Party am Samstagabend.
 
         </p>
         <p>

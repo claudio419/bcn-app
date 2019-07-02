@@ -24,7 +24,7 @@
 <div class="container padding_top_15">
     <h1>Orga Team</h1>
     <p>
-        Hier findest du Infos zu deinem Orga Team. <br />
+        Hier findest Du Infos zu deinem Orga Team. <br />
         Wenn es einen Notfall geben sollte, findest Du hier zu einem späteren Zeitpunkt auch die Notfall-Nummern des Orga-Teams.
     </p>
     <div class="separator_gray"></div>

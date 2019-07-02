@@ -20,7 +20,7 @@
     <h1 class="padding_top_15 color_green_deep">Programm</h1>
 
     <p class="padding_top_15">
-        Hier findest Du Infos zu deinem Programm für das Wochenende. Details zur An- und Abreise findest Du im Menü.
+        Hier findest Du Infos zu Deinem Programm für das Wochenende. Details zur An- und Abreise findest Du im Menü.
     </p>
 
 
@@ -64,8 +64,9 @@
             </p>
             <p class="font_size_16 padding_top_15">Die nächstgelegene Haltestelle für die Stadtrundfahrt findest Du direkt beim  Parc
                 de la Ciutadella, der sich unmittelbar vor dem Hotel befindet.</p>
-            <p class="font_size_16 padding_top_15">Man kann 3 verschiedene Routen mit insgesamt 45 Haltestellen befahren, bei den es 5
-                Schnittstellen gibt. Nähere Infos findest Du
+            <p class="font_size_16 padding_top_15">
+                Du kannst 3 verschiedene Routen mit insgesamt 45 Haltestellen befahren, die sich in 5 Punkten kreuzen.
+                Nähere Infos findest Du
                 <a class="color_black" href="https://www.holabarcelona.com/de/tickets/barcelona-hop-on-hop-off-bus-tour">hier</a>
             </p>
             <p class="font_size_16 padding_top_15">
@@ -135,7 +136,7 @@
     <div class="margin_top_15 container_background_party border_radius_10">
         <div class="container_background_overlight_hotel border_radius_10 ">
             <p class="color_white padding_top_10">
-                Samstag erwartet Dich unsere CHECKITO-Party. Aber lass dich einfach überraschen
+                Samstag erwartet Dich unsere CHECKITO-Party. Aber lass Dich einfach überraschen
             </p>
             <p class="color_white padding_top_10">
                 So viel vorab; um <b>19:45</b> treffen wir uns im Emfpangsbereich von dem Hotel. Uns wird dann ein Shuttlebus

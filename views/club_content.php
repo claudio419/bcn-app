@@ -6,7 +6,7 @@
         <p class="color_white padding_10">
             Nach unserem gemeinsamen Essen kannst du das Nachtleben von Barcelona unsicher machen.  In Barcelona gibt
             es viele Möglichkeiten Party zu machen. Von winzigen Clubs auf der Las Ramblas bis zu umgewandelten
-            Theaterschauplätzen, es gibt zahlreiche Orte für dich zum Tanzen – und da ist die reiche Festivaltradition
+            Theaterschauplätzen, es gibt zahlreiche Orte für Dich zum Tanzen – und da ist die reiche Festivaltradition
             der Stadt noch nicht einmal eingeschlossen. Sónar, Primavera und Piknic Electronic sind nur drei von
             vielen. <a href="https://hallo-barcelona.com/nachtleben/"> Lies hier</a> weiter für weitere Clubs in Barcelona.
         </p>

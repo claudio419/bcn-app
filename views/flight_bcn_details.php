@@ -11,8 +11,8 @@
                 <p class="info_box info_text">Wir fliegen mit Handgepäck. Du kannst also kein Gepäck aufgeben.
                     Bitte kontrolliere, ob Dein Gepäckstück klein genug für Handgepäck ist und beachte,
                     dass Du nur einen 1l-Plastikbeutel mit Flüssigkeiten mitnehmen darfst,
-                    wobei die Flüssigkeiten in Behältern sein müssen die kleiner als 100 ml sind.
-                    Genauere Infos findest du
+                    wobei die Flüssigkeiten in Behältern, sein müssen die kleiner als 100 ml sind.
+                    Genauere Infos findest Du
                     <a class="info_link" href="https://hauptstadtkoffer.de/de/tipps-trips/gepaeckguide/airline/lufthansa"
                        target="_blank"> hier</a></p>
             </div>
