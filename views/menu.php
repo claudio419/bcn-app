@@ -43,7 +43,7 @@
                 <a class="under_line_none" href="hotel.php"><li>Unser Hotel</li></a>
                 <a class="under_line_none" href="club.php"><li>Club-Vorschläge</li></a>
                 <a class="under_line_none" href="orga.php"><li>Orga Team</li></a>
-                <a class="under_line_none" href="logout.php"><li>abmelden</li></a>
+                <a class="under_line_none" href="logout.php"><li>Abmelden</li></a>
 
             </ul>
 
