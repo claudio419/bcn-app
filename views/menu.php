@@ -29,15 +29,21 @@
     <nav role="navigation">
         <div id="menuToggle">
 
+            <!-- burger menu with css-->
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
             <ul id="menu">
-                <a href="home.php"><li>Startseite</li></a>
-                <a href="program_extra.php"><li>Programm</li></a>
-                <a href="flight_bcn.php"><li>Anreise</li></a>
-                <a href="flight_muc.php"><li>Abreise</li></a>
-                <a href="hotel.php"><li>Unser Hotel</li></a>
-                <a href="club.php"><li>Club-Vorschläge</li></a>
-                <a href="orga.php"><li>Orga Team</li></a>
-                <a href="logout.php"><li>abmelden</li></a>
+                <a class="under_line_none" href="home.php"><li>Startseite</li></a>
+                <a class="under_line_none" href="program.php"><li>Programm</li></a>
+                <a class="under_line_none" href="flight_bcn.php"><li>Anreise</li></a>
+                <a class="under_line_none" href="flight_muc.php"><li>Abreise</li></a>
+                <a class="under_line_none" href="hotel.php"><li>Unser Hotel</li></a>
+                <a class="under_line_none" href="club.php"><li>Club-Vorschläge</li></a>
+                <a class="under_line_none" href="orga.php"><li>Orga Team</li></a>
+                <a class="under_line_none" href="logout.php"><li>abmelden</li></a>
 
             </ul>
 
