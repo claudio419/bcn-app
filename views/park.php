@@ -4,7 +4,7 @@
     <p class="padding_top_15 font_size_16">
         Der Montjuic ist ein ganz besonderer Teil Barcelonas. Mit einer sehr wechselvollen Geschichte hat er heute
         Parkanlagen, olympische Sportstätten, eine grandiose Aussicht und mehrere weltbekannte Museen zu bieten.
-        Besuche den Hausberg Barcelonas und begebe dich auf eine Reise durch die Geschichte und Kultur der Stadt.
+        Besuche den Hausberg Barcelonas und begebe Dich auf eine Reise durch die Geschichte und Kultur der Stadt.
         <a class="color_black" href="https://go2barcelona.de/montjuic.html">Hier</a>
         findest Du viele relevante Infos zu Sehenswürdigkeiten im Parc de Montjuic.
     </p>
@@ -31,7 +31,7 @@
     </p>
 
     <p class="padding_top_15 font_size_16">
-        Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest du hier die Liste der Kollegen.
+        Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest Du hier die Liste der Kollegen.
     </p>
 
     <div class="popup toogle">

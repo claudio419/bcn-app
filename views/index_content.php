@@ -5,15 +5,15 @@
     <!-- countdown -->
     <div class="count_down">
         <div class="count_down_days ">
-            <div id="days" class="make_circle">99</div>
+            <div id="days" class="make_circle">9</div>
             <div>Tage</div>
         </div>
         <div class="count_down_hours">
-            <div id="hours" class="make_circle">60</div>
+            <div id="hours" class="make_circle">9</div>
             <div>Stunden</div>
         </div>
         <div class="count_down_minutes">
-            <div id="minutes" class="make_circle">60</div>
+            <div id="minutes" class="make_circle">9</div>
             <div>Minuten</div>
         </div>
     </div>

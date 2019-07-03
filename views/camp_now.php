@@ -4,7 +4,7 @@
     <p class="padding_top_15 font_size_16">
         Das größte Fußballstadion Europas ist ein MUSS für jeden Fußballfan. Wirf einen Blick hinter die Kulissen
         des Camp Nou und tauche ein in die Vereinsgeschichte des FC Barcelonas. In diesem Stadion ist vieles eine
-        Nummer größer. Und das spürst Du bei deinem Besuch auf Schritt und Tritt. Schnell wirst Du merken, dass hier
+        Nummer größer. Und das spürst Du bei Deinem Besuch auf Schritt und Tritt. Schnell wirst Du merken, dass hier
         der Slogan „Més que un Club“, was so viel bedeutet wie „Mehr als nur ein Club“ gelebt wird. Sei gespannt auf
         einen aufregenden Nachmittag im Camp Nou.
         <a class="color_black" href="https://campnou.de/tour/camp-nou-tour-plus/">Hier</a> findest Du weitere Infos zu der Stadion-Tour.
