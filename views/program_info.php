@@ -67,7 +67,7 @@
             <p class="font_size_16 padding_top_15">
                 Du kannst 3 verschiedene Routen mit insgesamt 45 Haltestellen befahren, die sich in 5 Punkten kreuzen.
                 Nähere Infos findest Du
-                <a class="color_black" href="https://www.holabarcelona.com/de/tickets/barcelona-hop-on-hop-off-bus-tour">hier</a>
+                <a class="color_black" href="https://www.holabarcelona.com/de/tickets/barcelona-hop-on-hop-off-bus-tour">hier.</a>
             </p>
             <p class="font_size_16 padding_top_15">
                 Außerdem kannst Du es auch so planen, dass Du direkt bei Deiner gewählten Tagesaktivität aussteigst, da

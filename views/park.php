@@ -31,7 +31,7 @@
     </p>
 
     <p class="padding_top_15 font_size_16">
-        Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest du hier die Liste der Kollegen.
+        Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest Du hier die Liste der Kollegen.
     </p>
 
     <div class="popup toogle">
