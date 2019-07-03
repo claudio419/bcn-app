@@ -16,6 +16,7 @@ $(document).ready(function() {
     $('#program_body').hide();
     $('#program_close_box').hide();
     $('#tipp_body').hide();
+    $('#sun_icon').hide();
 
     $('#close_box').on('click', function () {
 
