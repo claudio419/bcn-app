@@ -146,6 +146,26 @@ include 'db_conection.php';
         }
 
         /**
+         * Get Program extra
+         *
+         * return array
+         */
+        public function get_meal() {
+
+            $con = new db_conection();
+
+            $session_id = (isset($_COOKIE['PHPSESSID']) && !empty($_COOKIE['PHPSESSID'])) ? strip_tags($_COOKIE['PHPSESSID']) : '';
+
+            if(!empty($session_id)) {
+
+                $meal = $con->get_meal_by_session(strip_tags($session_id));
+
+                return $meal;
+
+            }
+
+        }
+        /**
          * Get Program id
          *
          * return int

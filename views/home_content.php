@@ -20,7 +20,7 @@
     </div>
 
     <div>
-        <div class="popup toogle">
+        <div class="popup toogle" id="popup">
             <div class="popup_title popup_title_close" id="popup_title">
                 Reiseversicherung
                 <i class="fa fa-times padding_left_10" id="close_box" aria-hidden="true"></i>
@@ -31,7 +31,8 @@
                     Innerhalb der EU sind die meisten Fälle durch die deutsche Krankenversicherung abgedeckt. Es gibt jedoch
                     Fälle (z.B. Rückführung) die nicht abgedeckt sind, dann ist es viel günstiger eine Reisekrankenversicherung zu haben als die
                     Kosten privat zu übernehmen. Du kannst direkt bei uns vergleichen und Dir anschauen ob sich eine Versicherung
-                    lohnen würde. Klicke einfach <a class="color_black" href="https://reiseversicherung.check24.de/desktop/calculation/check24/input">hier</a>
+                    lohnen würde. Klicke einfach
+                    <a class="color_black" href="https://reiseversicherung.check24.de/mobile/calculation/check24/input/?criskcancellation=1&criskcurtailment=1&criskhealth=1&criskbaggage=0&ciprelation=single&cmaxage=39&csingletrip=0&cmaxcosts=2500&ctripbooking=today&ctripbegin=2019-07-04&ctripend=2019-07-04&cbookinglastdays=1&ctripalreadybooked=0&ctransporttype=all&csingleparent=0&ctripdestinations=europe">hier</a>
                 </p>
 
             </div>

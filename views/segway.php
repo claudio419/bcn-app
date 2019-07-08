@@ -19,7 +19,7 @@
         Wenn Dich interessiert, wer noch bei dieser Aktivität dabei ist, findest Du hier die Liste der teilnehmenden Kollegen.
     </p>
 
-    <div class="popup toogle">
+    <div class="popup toogle" id="program">
         <div class="popup_title popup_title_close" id="program_title">
             Liste Deiner Kollegen
             <i class="fa fa-times padding_left_10" id="program_close_box" aria-hidden="true"></i>

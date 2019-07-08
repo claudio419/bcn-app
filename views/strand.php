@@ -35,7 +35,7 @@
         Wenn Du Dich mit anderen Kollegen zusammenschließen willst, Findest Du hier die Liste der Kollegen.
     </p>
 
-    <div class="popup toogle">
+    <div class="popup toogle" id="program">
         <div class="popup_title popup_title_close" id="program_title">
             Liste Deiner Kollegen
             <i class="fa fa-times padding_left_10" id="program_close_box" aria-hidden="true"></i>

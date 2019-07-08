@@ -44,6 +44,9 @@
             Emfpangsbereich vom Hotel und gehen dann gemeinsam zu dem Restaurant. Dort haben wir einen Tisch für 20:00
             reserviert.
         </p>
+        <p class="padding_top_15 font_size_16">
+            Dein ausgewähltes Essen:<b> <?php echo $meal['meal_text'] ?></b>
+        </p>
     </div>
     <div class="separator_gray padding_top_15 bol" id="saturday"></div>
 
@@ -82,7 +85,7 @@
                 die ebenfalls ein Busticket haben.
             </p>
 
-            <div class="popup toogle">
+            <div class="popup toogle" id="hopon_hopoff">
                 <div class="popup_title popup_title_close" id="member_title">
                     Liste Deiner Kollegen
                     <i class="fa fa-times padding_left_10" id="member_close_box" aria-hidden="true"></i>
@@ -103,9 +106,6 @@
         </div>
 
     <?php }?>
-
-
-
 
     <?php
 

@@ -15,9 +15,9 @@
         Schultern müssen bedeckt sein!
     </p>
     <p class="padding_top_15 font_size_16">
-        Wir treffen uns um 13:15 Uhr im Foyer des Hotels und laufen dann gemeinsam die 2 km zur Sagrada Familia. Wenn
-        Du vorher etwas anderes unternimmst, kannst Du auch direkt zum Treffpunkt mit unserem Führer kommen. Dazu solltest
-        Du bis spätestens 14:00 Uhr hier sein:
+        Wir treffen uns um 16:40 Uhr im Foyer des Hotels und laufen dann gemeinsam die 2 km zur Sagrada Familia. Wenn
+        Du vorher etwas andere unternimmst, kannst Du auch direkt zum Treffpunkt mit unserem Führer kommen. Dazu solltest
+        Du bis spätestens 17:20 Uhr hier sein:
     </p>
     <p class="padding_top_15 font_size_16">
         Visit Europa Today
@@ -37,7 +37,7 @@
         Wenn Dich interessiert, wer noch bei dieser Aktivität dabei ist, findest Du hier die Liste der teilnehmenden Kollegen.
     </p>
 
-    <div class="popup toogle">
+    <div class="popup toogle" id="program">
         <div class="popup_title popup_title_close" id="program_title">
             Liste Deiner Kollegen
             <i class="fa fa-times padding_left_10" id="program_close_box" aria-hidden="true"></i>

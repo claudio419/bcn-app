@@ -206,6 +206,10 @@ a:hover {
     background-color: transparent;
     background-image:url("../img/airplane.jpg");
     background-size: cover;
+    background-position: center center;
+}
+.bg-yellow{
+    background-color: var(--color-yellow);
 }
 
 .word_wrap {
@@ -217,6 +221,7 @@ a:hover {
     background-color: transparent;
     background-image:url("../img/airplane_2.jpg");
     background-size: cover;
+    background-position: center center;
 }
 .container_background_hotel{
     height:auto;
@@ -224,6 +229,7 @@ a:hover {
     background-color: transparent;
     background-image:url("../img/hotel.jpg");
     background-size: cover;
+    background-position: center center;
 }
 .container_background_party{
     height:auto;
@@ -239,6 +245,7 @@ a:hover {
     background-color: transparent;
     background-image:url("../img/club.jpg");
     background-size: cover;
+    background-position: center center;
 }
 .container_background_overlight_club{
     background-color: transparent;
