@@ -36,6 +36,7 @@
 
     </div>
     <div class="program_frame border_radius_10">
+
         <p class="padding_top_10"></p>
         <img src="public/img/aguelo.jpg" class="program_img border_radius_10">
         <p class="padding_top_15 font_size_16">
@@ -47,6 +48,11 @@
         <p class="padding_top_15 font_size_16">
             Dein ausgewähltes Essen:<b> <?php echo $meal['meal_text'] ?></b>
         </p>
+        <p class="padding_top_15 font_size_16">
+            Nach dem Essen kannst Du die Stadt mit Kollegen auf eigene Faust unsicher machen. Ein paar Tipps dazu findest Du
+            <a class="color_black" href="club.php"> hier.</a>
+        </p>
+
     </div>
     <div class="separator_gray padding_top_15 bol" id="saturday"></div>
 

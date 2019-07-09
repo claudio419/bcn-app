@@ -1,3 +1,13 @@
+<div class="bg-yellow padding_10 border_radius_10 margin_top_15">
+    <div>
+        <p>Notfallnummer: <a class="color_black" href="tel:00491706516820">0049170 - 6516820</a></p>
+    </div>
+    <div>
+        <p>Wenn es während der Zeit irgendwelche Probleme gibt, erreichst Du uns unter dieser Nummer.</p>
+    </div>
+
+</div>
+
 <div class="home_orga_team">
     <div class="left orga_img">
         <div class="orga_member">
@@ -39,14 +49,4 @@
         </div>
         <div class="center">Markus</div>
     </div>
-</div>
-
-<div class="bg-yellow padding_10 border_radius_10 margin_top_15">
-    <div>
-        <p>Notfallnummer: <a class="color_black" href="tel:00491706516820">0049170 - 6516820</a></p>
-    </div>
-    <div>
-        <p>Wenn es während der Zeit irgendwelche Probleme gibt, erreichst Du uns unter dieser Nummer.</p>
-    </div>
-
 </div>
