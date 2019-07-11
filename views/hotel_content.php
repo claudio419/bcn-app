@@ -204,7 +204,7 @@
                     <p class="color_white">Check-Out:</p>
                 </div>
                 <div class="right width_60_percent">
-                    <p class="color_white">Die Info zum Check-Out bekommt ihr am Sonntag von dem Orga - Team</p>
+                    <p class="color_white">Gib bitte bis 13:00 Uhr Deine Karte zum Hotelzimmer ab</p>
                 </div>
             </div>
 

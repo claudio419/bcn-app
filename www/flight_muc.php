@@ -10,6 +10,7 @@
     }
 
     $city_id =$ctrl_content->get_city_id_by_session_id();
+    $ticket_number = $ctrl_content->get_ticket_number();
 ?>
 
 <!DOCTYPE html>

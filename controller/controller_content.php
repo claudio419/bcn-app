@@ -75,6 +75,28 @@ include 'db_conection.php';
         }
 
         /**
+         * Get ticket number
+         *
+         * return string|null
+         */
+        public function get_ticket_number() {
+
+            $con = new db_conection();
+
+            $session_id = (isset($_COOKIE['PHPSESSID']) && !empty($_COOKIE['PHPSESSID'])) ? strip_tags($_COOKIE['PHPSESSID']) : '';
+
+            if(!empty($session_id)) {
+
+                $ticket_number = $con->get_ticket_number(strip_tags($session_id));
+
+                return ($ticket_number) ? $ticket_number['ticket_number'] : null;
+            }
+
+            return 1;
+
+        }
+
+        /**
          * Get Program id
          *
          * return int
@@ -145,6 +167,26 @@ include 'db_conection.php';
 
         }
 
+        /**
+         * Get Program extra
+         *
+         * return array
+         */
+        public function get_meal() {
+
+            $con = new db_conection();
+
+            $session_id = (isset($_COOKIE['PHPSESSID']) && !empty($_COOKIE['PHPSESSID'])) ? strip_tags($_COOKIE['PHPSESSID']) : '';
+
+            if(!empty($session_id)) {
+
+                $meal = $con->get_meal_by_session(strip_tags($session_id));
+
+                return $meal;
+
+            }
+
+        }
         /**
          * Get Program id
          *

@@ -14,6 +14,7 @@
 
     $program_extra      = $ctrl_content->get_program_extra();
     $program__all_extra = $ctrl_content->get_all_program_extra();
+    $meal               = $ctrl_content->get_meal();
 
 ?>
 
