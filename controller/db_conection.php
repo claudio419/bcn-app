@@ -159,6 +159,31 @@
             }
 
         }
+        /**
+         * Get ticket number
+         *
+         * @param string $session_id
+         * @return string
+         */
+        function get_ticket_number($session_id) {
+
+
+            $conn = $this->get_conn();
+
+            $sql = 'SELECT ticket_number FROM users where session_id=\'' . $session_id . '\';';
+
+            $result = $conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    return $row;
+                }
+
+            } else {
+                return false;
+            }
+
+        }
 
         /**
          * Get program id

@@ -46,7 +46,7 @@
             reserviert.
         </p>
         <p class="padding_top_15 font_size_16">
-            Dein ausgewähltes Essen:<b> <?php echo $meal['meal_text'] ?></b>
+            Dein ausgewähltes Essen:<b> <?php echo utf8_encode($meal['meal_text']) ?></b>
         </p>
         <p class="padding_top_15 font_size_16">
             Nach dem Essen kannst Du die Stadt mit Kollegen auf eigene Faust unsicher machen. Ein paar Tipps dazu findest Du

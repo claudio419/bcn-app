@@ -6,8 +6,11 @@
     <div>
         <h1>Hallo <?php echo $firstname; ?></h1>
         <p>
-            es gibt wieder ein neues Update und es sind nur mehr wenige Wochen bis wir starten! Unter Programm findest
-            Du Dein persönliches Programm inkl. dem Motto für unsere Party am Samstag.
+            jetzt geht es endlich los! Wenn wir vor Ort sind, beachte unbedingt, dass es in Barcelona sehr viele
+            Taschendiebe gibt! Nimm deshalb bitte nur die Wertsachen mit auf die Straße, die Du auch wirklich brauchst,
+            und verstaue den Rest im Safe auf Deinem Zimmer. Wenn Du Wertsachen bei Dir trägst, halte sie am besten
+            möglichst nah am Körper, außer Sicht und sei wachsam. Rucksäcke, Handtaschen und Wertsachen in der Gesäßtasche
+            sind ein gefundenes Fressen für Taschendiebe.
 
         </p>
         <p>
